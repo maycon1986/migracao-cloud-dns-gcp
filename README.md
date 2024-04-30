@@ -38,13 +38,13 @@ bash criacao.sh
 #### Retorno do comando 
 ERROR: (gcloud.dns.managed-zones.describe) HTTPError 404: The 'parameters.managedZone' resource named 'dominio1-com' does not exist.
 
-Created [https://dns.googleapis.com/dns/v1/projects/dns-externo-abril/managedZones/dominio1-com].
+Created [https://dns.googleapis.com/dns/v1/projects/<project-id>/managedZones/dominio1-com].
 
 dominio1.com.dns. Zona criado com sucesso
 
 ERROR: (gcloud.dns.managed-zones.describe) HTTPError 404: The 'parameters.managedZone' resource named 'dominio-com' does not exist.
 
-Created [https://dns.googleapis.com/dns/v1/projects/dns-externo-abril/managedZones/dominio-com].
+Created [https://dns.googleapis.com/dns/v1/projects/<project-id>/managedZones/dominio-com].
 
 dominio.com.dns. Zona criado com sucesso
 
@@ -73,7 +73,7 @@ Iniciando a importação dos record
 
 Imported record-sets from [./dns/dominio1.com.dns] into managed-zone [dominio1-com].
 
-Created [https://dns.googleapis.com/dns/v1/projects/dns-externo-abril/managedZones/dominio1-com/changes/1].
+Created [https://dns.googleapis.com/dns/v1/projects/<project-id>/managedZones/dominio1-com/changes/1].
 
 ID  START_TIME                STATUS
 
@@ -85,7 +85,7 @@ Iniciando a importação dos record
 
 Imported record-sets from [./dns/dominio.com.dns] into managed-zone [dominio-com].
 
-Created [https://dns.googleapis.com/dns/v1/projects/dns-externo-abril/managedZones/dominio-com/changes/1].
+Created [https://dns.googleapis.com/dns/v1/projects/<project-id>/managedZones/dominio-com/changes/1].
 
 ID  START_TIME                STATUS
 
