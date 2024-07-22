@@ -1,6 +1,7 @@
 ## 🚀 Neste repositório vamos migrar um servidor de dns para o Cloud DNS do Google. Aqui estão os passos que seguiremos:
 
 | LEMBRETE: O Procedimento abaixo tem que ser realizado após a autenticação no seu projeto GCP |
+| Edite o script "criacao.sh" e altere a linha PROJECT_ID=<nome-do-projeto>                    |
 | :------------------------------------------------------------------------------------------- |
 
 ### 1. Faça o upload dos arquivos do tipo BIND para o diretório "dns".

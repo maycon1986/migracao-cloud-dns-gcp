@@ -13,7 +13,7 @@
 #set -x
 set -e
 
-PROJECT_ID="dns-externo-abril"
+PROJECT_ID="<PROJECT_ID>"
 VISIBILITY="public" # or "private".  Default is public.
 
 # Lista dos DNS do cliente para migrar
